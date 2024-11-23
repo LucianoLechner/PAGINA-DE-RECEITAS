@@ -44,11 +44,20 @@ h2{
     line-height: 150%;
 }
 
+.bg-color{
+    background-color: #57382495;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
 
 body{
     background-image: url(./assets/bg-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .page{
@@ -57,4 +66,14 @@ body{
     background-color: #F0E8C2;
     border-radius: 24px;
     margin: 48px auto;
+}
+
+footer{
+    color: #F0E8C2;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+footer img {
+    vertical-align: middle;
 }
